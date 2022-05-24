@@ -83,9 +83,20 @@
 
     font-size: 1.25rem;
   }
+
+	.panel-body {
+		border: 1px solid $color-gray;
+		border-radius: 0 0 4px 4px;
+	}
 }
 
-.panel-body {
-  border: 1px solid $color-gray-dark;
-  border-radius: 0 0 4px 4px;
+.input {
+	&-lg,
+	&-group-lg > .form-control {
+		font-size: 0.875rem;
+	}
+}
+
+.thumbnail {
+	transition: background-color 0.5s;
 }
